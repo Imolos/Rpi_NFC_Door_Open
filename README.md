@@ -15,11 +15,11 @@ pi@raspbery:~ $ sudo raspi-config
 ```
 You wil get table with configuration
 
-![Raspi](Raspconfig.png)
+![](ScreenShoot/Raspconfig.png)
 
 Go to advance options
 
-![Raspi](Advanceconfig.png)
+![](ScreenShoot/Advanceconfig.png)
 
 And make it Enable
 Now go out with combination ctrl + c
