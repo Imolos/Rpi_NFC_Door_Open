@@ -73,4 +73,21 @@ device.name = "_PN532_I2c"
 device.connstring = "pn532_i2c:/dev/i2c-1"
 
 ```
+On PN532 switch 
++------+------+
+| SEL0 | SEL1 |
++------+------+
+|   H  |   L  |
++------+------+
+
+Now type :
+```console
+i2cdetect -y 1
+```
+And you will get something like this
+
+![raspi](ScreenShoot/I2Cdetect.png)
+
+
+
 
