@@ -73,20 +73,28 @@ device.name = "_PN532_I2c"
 device.connstring = "pn532_i2c:/dev/i2c-1"
 
 ```
-On PN532 switch 
-+------+------+
-| SEL0 | SEL1 |
-+------+------+
-|   H  |   L  |
-+------+------+
+On PN532 switches set  
+
+SEL0 H
+
+SEL1 L
 
 Now type :
 ```console
-i2cdetect -y 1
+pi@raspbery:~ $ i2cdetect -y 1
 ```
 And you will get something like this
 
-![raspi](ScreenShoot/I2Cdetect.png)
+![raspi](ScreenShoot/I2Cdetect.png)w
+
+If this come out test NFC to reading some card
+Type into console:
+```console
+pi@raspbery:~ $ nfc/poll
+```
+You will get this lines
+![](ScreenShoot/NFC-Pol.png)
+
 
 
 
