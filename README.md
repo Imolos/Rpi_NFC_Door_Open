@@ -6,7 +6,7 @@ This project is focused for registration by NFC (Near Field Communication). It's
 For this project i used Raspberry Pi version 3B with NFC PN532 reader
 I am sure it will work on Rpi 2 and Rpi 1 but if it have I2C Bus
 
-----------------------------------------------Configuration I2C to use on Rpi-----------------------------------------------------
+----------------------------------------------Configuration I2C to use on Rpi----------------------------------------------------
 First you need go to Raspberry config
 in terminal and type:
 ```console
