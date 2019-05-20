@@ -1,3 +1,5 @@
+I will in future try to insert more features. But now I don't have NFC reader.
+
 # Rpi_NFC_Door_Open
 This is Raspberry script for opening door(need to write up) with simple Database and Web aplication
 
